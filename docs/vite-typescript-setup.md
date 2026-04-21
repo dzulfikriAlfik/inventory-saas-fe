@@ -20,12 +20,12 @@ Required variable: `VITE_API_URL` — backend origin (no trailing slash), e.g. `
 ## Scripts
 
 - `npm run dev` — Vite dev server (default port 5173).
-- `npm run build` — `tsc -b` then production bundle to `dist/`.
+- `npm run build` — `tsc --noEmit` then production bundle to `dist/`.
 - `npm run preview` — serve `dist/` locally.
 
 ## Path alias
 
-`@/*` maps to `src/*` (see `vite.config.ts` and `tsconfig.app.json`).
+`@/*` maps to `src/*` (see `vite.config.ts` and `tsconfig.json`).
 
 ## CORS and cookies
 
